@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+import Button from '~/component/button'
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
      <h1>Hello Word</h1>
+     <Button />
     </div>
   );
 }
